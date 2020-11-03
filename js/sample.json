@@ -1,0 +1,29 @@
+let students = `[
+    {
+        "name": "Suhan",
+        "age": 25,
+        "Height": 170
+
+    },
+    {
+        "name": "nicole",
+        "age": 25,
+        "Height": 170
+
+    },
+    {
+        "name": "Alex",
+        "age": 25,
+        "Height": 170
+
+    },
+    {
+        "name": "Popey",
+        "age": 25,
+        "Height": 170
+
+    }
+]`
+console.log(json.parse(students));
+console.log(json.parse(students)[1].name);
+console.log(json.parse(students)[2].age);
